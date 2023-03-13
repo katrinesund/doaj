@@ -14,7 +14,6 @@
     width: 100%;
     border-bottom: 1px solid rgba($dark-grey, 0.25);
     counter-increment: row-number;
-    @include font-serif;
     @include typescale-05;
 
     &:last-child {

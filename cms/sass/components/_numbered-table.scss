@@ -16,7 +16,6 @@
         vertical-align: baseline;
         font-weight: 400;
         @include typescale-05;
-        @include font-serif;
       }
 
       &:nth-child(2) {
@@ -30,7 +29,6 @@
   td {
     &:nth-child(2) {
       @include typescale-05;
-      @include font-serif;
     }
   }
 }
