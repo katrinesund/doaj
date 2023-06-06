@@ -5,6 +5,10 @@
     select, textarea, input {
       width: 100%;
     }
+    
+    textarea:disabled {
+      min-height: $spacing-07;
+    }
   }
 
   hr {
