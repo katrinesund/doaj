@@ -26,7 +26,7 @@ jobs:
           echo "ELASTICSEARCH_HOSTS = [{'host': 'localhost', 'port': 9200}]" > test.cfg
           python portality/cms/build_fragments.py
           python portality/cms/build_sass.py
-          pytest -v --color=yes --code-highlight=yes --log-level=DEBUG doajtest/unit
+          pytest -v --color=yes --code-highlight=yes --log-level=DEBUG -n4 --dist loadfile doajtest/unit
 
     working_directory: ~/doaj
 
